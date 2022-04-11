@@ -20,12 +20,6 @@ public class CreateUser extends BaseApiTest {
         stringObjectMa.put("name", LoremIpsum.getInstance().getTitle(1));
         stringObjectMa.put("job", "leader");
         System.out.println(stringObjectMa.toString());
-        //Ctrl+D
-
-//        String json = "{\n" +
-//                "    \"name\": \"morpheus\",\n" +
-//                "    \"job\": \"leader\"\n" +
-//                "}";
 
         given()
                 .spec(requestSpecification())
