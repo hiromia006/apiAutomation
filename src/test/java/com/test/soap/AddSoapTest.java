@@ -36,9 +36,4 @@ public class AddSoapTest {
                 .log().body()
                 .body("//AddResult.text()", equalTo("30"));
     }
-
-    @Test
-    public void test1(){
-        System.out.printf("djfhdsf");
-    }
 }
